@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LaunchPadjakebeinart.Models;
-using Caliburn.Micro.PropertyChangedBase;
+using Caliburn.Micro;
 
 namespace LaunchPadjakebeinart.ViewModels
 {
-    class MainWindowViewModel
+    class MainWindowViewModel : PropertyChangedBase
     {
+        
         private MainWindowModel Model;
+
+        public MainWindowViewModel()
+        {
+            Model = new MainWindowModel();
+        }
     }
 }
