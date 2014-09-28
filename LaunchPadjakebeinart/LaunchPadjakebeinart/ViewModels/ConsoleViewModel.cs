@@ -8,5 +8,6 @@ namespace LaunchPadjakebeinart.ViewModels
 {
     class ConsoleViewModel
     {
+        
     }
 }
