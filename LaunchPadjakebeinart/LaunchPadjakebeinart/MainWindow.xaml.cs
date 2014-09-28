@@ -27,6 +27,7 @@ namespace LaunchPadjakebeinart
         {
             InitializeComponent();
             this.DataContext = new MainWindowViewModel();
+            this.DataContext = new ConsoleViewModel();
         }
     }
 }
